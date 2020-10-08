@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text("Flutter Cashy"),
-          backgroundColor: darkBlue,
+          backgroundColor: Colors.blueAccent,
         ),
         body: SafeArea(
           child: Container(
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
                     ),
                     Padding(
                       padding: EdgeInsets.only(top: 20.0, bottom: 4.0),
-                      child: Text("Rich Together", style: mainHeader,),
+                      child: Text("Cash Storage History", style: mainHeader,),
                     ),
                     Text("Save your money little bit and we will help to be rich",
                       style: subHeader,
