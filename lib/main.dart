@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text("Flutter Cashy"),
-          backgroundColor: darkBlue,
+          backgroundColor: Colors.blueAccent,
         ),
         body: SafeArea(
           child: Container(
